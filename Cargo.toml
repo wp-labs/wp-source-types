@@ -2,9 +2,15 @@
 name = "wp-source-types"
 version = "0.1.0"
 edition = "2024"
-description = "Common connector types (Tags, SourceEvent) shared across WP connector crates"
+description = "Common source-side connector types — Tags, SourceEvent, SourceBatch — shared across WP connector crates"
 authors = ["WarpParse Dev Team"]
 license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/wp-labs/wp-source-types"
+homepage = "https://github.com/wp-labs/wp-source-types"
+documentation = "https://docs.rs/wp-source-types"
+keywords = ["connector", "warpparse", "source", "tags", "event"]
+categories = ["data-structures"]
 
 [dependencies]
 smol_str = "0.3"
