@@ -1,0 +1,13 @@
+[package]
+name = "wp-source-types"
+version = "0.1.0"
+edition = "2024"
+description = "Common connector types (Tags, SourceEvent) shared across WP connector crates"
+authors = ["WarpParse Dev Team"]
+license = "Apache-2.0"
+
+[dependencies]
+smol_str = "0.3"
+serde = { version = "1.0", features = ["derive"] }
+smallvec = { version = "1.0", features = ["serde"] }
+wp-model-core = "0.8"
