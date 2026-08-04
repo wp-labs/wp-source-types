@@ -1,6 +1,6 @@
 [package]
 name = "wp-source-types"
-version = "0.1.1" #@gxl:set(version)
+version = "0.2.0" #@gxl:set(version)
 edition = "2024"
 description = "Common source-side connector types — Tags, SourceEvent, SourceBatch — shared across WP connector crates"
 authors = ["WarpParse Dev Team"]
@@ -16,4 +16,4 @@ categories = ["data-structures"]
 smol_str = "0.3"
 serde = { version = "1.0", features = ["derive"] }
 smallvec = { version = "1.0", features = ["serde"] }
-wp-model-core = "0.8"
+wp-model-core = "0.9"
